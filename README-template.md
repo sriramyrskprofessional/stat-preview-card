@@ -36,7 +36,7 @@ Users should be able to:
 ## My process
 
 ### Built with
-
+- mix-blende-mode property
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -47,7 +47,7 @@ Users should be able to:
 
 
 ### What I learned
-
+How to blende image with parent background.
 I learned how to display a transparent color over an image using linear gradient
 I also learned that to many containers are not required , When all the elements are in same dimension we don't need containers.
 
@@ -74,6 +74,8 @@ I want to focus on writing clean code by reducing any unwanted codes.
 ### Useful resources
 
 - https://stackoverflow.com/questions/26349987/how-do-i-apply-a-style-to-all-children-of-an-element- This helped me to know how to use wrapper classes to write styles to child elements
+- https://www.w3schools.com/cssref/pr_mix-blend-mode.asp- It helped me to understand how to blend an image to the parent background color
+- https://www.w3schools.com/cssref/css3_pr_opacity.asp#:~:text=The%20opacity%20property%20sets%20the,and%200%20is%20completely%20transparent. - How opacity works
 
 
 ## Author
@@ -84,7 +86,7 @@ I want to focus on writing clean code by reducing any unwanted codes.
 
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I used linear gradient without using a much easier solution.But one of the friend @correlucas from frontend mentor gave a much easier solution Thanks to him.
+Thanks to @Deolabest for reminding me to centre the text in the mobile view. 
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

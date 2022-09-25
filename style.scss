@@ -50,6 +50,7 @@ section{
         height: 100%;
         @include max-width-media(27rem){
             padding: 1.1rem;
+            text-align: center;
         }
         
     }
@@ -83,14 +84,19 @@ section{
         }
     }
 }
-
+.overlay-effect{
+    background-color: hsl(277, 64%, 61%);
+}
 .stat-img{
     width: 30rem;
     height: $card-height;
-    background: linear-gradient(to top,$Soft-violet-trans 100%,transparent) ,url("images/image-header-desktop.jpg");
+    // background: linear-gradient(to top,$Soft-violet-trans 100%,transparent) ,url("images/image-header-desktop.jpg");
+    background:url("images/image-header-desktop.jpg");
     background-size: cover;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius:0.5rem;
+    mix-blend-mode: multiply;//The mix-blend-mode property specifies how an element's content should blend with its direct parent background.
+    opacity: 80%;//sets the transperency level(0 is completely transparent - 1 is opposite)
     @include max-width-media(27rem){
         background: linear-gradient(to top,$Soft-violet-trans 100%,transparent) ,url("images/image-header-mobile.jpg");
         background-size: cover;

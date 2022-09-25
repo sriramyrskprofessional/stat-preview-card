@@ -38,7 +38,8 @@ section {
     height: 100%; }
     @media (max-width: 27rem) {
       .content .wrappers {
-        padding: 1.1rem; } }
+        padding: 1.1rem;
+        text-align: center; } }
   .content h1 {
     color: white;
     font-size: 2rem; }
@@ -66,13 +67,18 @@ section {
       font-family: 'Lexend Deca', sans-serif;
       font-size: 0.7rem; }
 
+.overlay-effect {
+  background-color: #aa5cdb; }
+
 .stat-img {
   width: 30rem;
   height: 25rem;
-  background: linear-gradient(to top, rgba(108, 12, 168, 0.486) 100%, transparent), url("images/image-header-desktop.jpg");
+  background: url("images/image-header-desktop.jpg");
   background-size: cover;
   border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem; }
+  border-bottom-right-radius: 0.5rem;
+  mix-blend-mode: multiply;
+  opacity: 80%; }
   @media (max-width: 27rem) {
     .stat-img {
       background: linear-gradient(to top, rgba(108, 12, 168, 0.486) 100%, transparent), url("images/image-header-mobile.jpg");
